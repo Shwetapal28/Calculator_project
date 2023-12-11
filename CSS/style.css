@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(218, 193, 193);
+}
+
+.inputbox {
+    height: 40px;
+    width: 406px;
+    border: 1px solid grey;
+    border-top: none;
+    background-color: #444c38;
+    text-align: right;
+    font-size: 45px;
+    border-radius: 0px 0px 6px 6px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.inputEq {
+    height: 40px;
+    width: 406px;
+    color:#212120;
+    border: 1px solid grey;
+    border-bottom: none;
+    background-color: #444c38;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 6px 6px 0px 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    position:relative;
+    border: 1px solid #444c38;
+    width: 419px;
+    height: 531px;
+    margin: auto;
+    background-color: rgba(81, 81, 83, 0.958);
+    border-radius: 6px;
+    padding-left: 7px;
+    padding-top: 7px;
+    margin-top: 80px;
+}
+
+.btn-input {
+    height: 86px;
+    width: 100px;
+    border: 1px solid grey;
+    background-color:#3d4035 ;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-op {
+    height: 86px;
+    width: 100px;
+    border: 1px solid grey;
+    background-color:#3d4035 ;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.history{
+    position: absolute;
+    display: none;
+    width: 412px;
+    height: 439px;
+    border: 2px solid rgb(119, 109, 109);
+    top: 72px;
+    left: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #3d4035;
+    color: rgb(198, 201, 203);
+    font-size: 28px;
+    overflow-y: scroll;
+}
+
+.btn-close{
+    font-size: 24px;
+    background-color: rgb(35, 29, 29);
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.btn-remove{
+    font-size: 23px;
+    background-color: rgb(35, 29, 29);
+    border-radius: 2px;
+    
+}
+
+.btn-input:hover {
+    background-color:#2a2e20 ;
+  }
+
+.btn-op:hover {
+    background-color:#2a2e20 ;
+  }
